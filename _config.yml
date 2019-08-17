@@ -12,8 +12,14 @@ description: > # this means to ignore newlines until "baseurl:"
   chimeras app for art exhibition
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://janetyc.github.io/chimeras-app" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
-markdown: kramdown
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
