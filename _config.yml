@@ -10,16 +10,8 @@ title: Chimeras app
 email: janewawamulti@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   chimeras app for art exhibition
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://janetyc.github.io/chimeras-app" # the base hostname & protocol for your site
+baseurl: "/chimeras-app" # the subpath of your site, e.g. /blog
+url: "janetyc.github.io" # the base hostname & protocol for your site
 
 # Build settings
-lsi: false
-safe: true
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+markdown: kramdown
